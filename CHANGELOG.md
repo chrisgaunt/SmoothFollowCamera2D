@@ -6,6 +6,7 @@
 * Now using [Vector3.SmoothDamp](http://docs.unity3d.com/ScriptReference/Vector3.SmoothDamp.html) for the smooth movement calculation
 
 #### Breaking Changes
+* Renamed to SmoothFollowCamera2D
 * Renamed min/max variables
 
 <a name="0.1.0"></a>

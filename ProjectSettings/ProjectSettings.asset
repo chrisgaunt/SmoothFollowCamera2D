@@ -11,7 +11,7 @@ PlayerSettings:
   targetResolution: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: SmoothCamera2D
+  productName: SmoothFollowCamera2D
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
@@ -72,7 +72,7 @@ PlayerSettings:
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1
-  aotOptions: 
+  aotOptions:
   apiCompatibilityLevel: 2
   iPhoneStrippingLevel: 0
   iPhoneScriptCallOptimization: 0
@@ -97,20 +97,20 @@ PlayerSettings:
   iPadHighResLandscapeSplashScreen: {fileID: 0}
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
-  AndroidKeystoreName: 
-  AndroidKeyaliasName: 
+  AndroidKeystoreName:
+  AndroidKeyaliasName:
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons:
-  - m_BuildTarget: 
+  - m_BuildTarget:
     m_Icons:
     - m_Icon: {fileID: 0}
       m_Size: 128
   m_BuildTargetBatching: []
   webPlayerTemplate: APPLICATION:Default
   m_TemplateCustomTags: {}
-  XboxTitleId: 
-  XboxImageXexPath: 
-  XboxSpaPath: 
+  XboxTitleId:
+  XboxImageXexPath:
+  XboxSpaPath:
   XboxGenerateSpa: 0
   XboxDeployKinectResources: 0
   XboxSplashScreen: {fileID: 0}
@@ -118,70 +118,70 @@ PlayerSettings:
   xboxAdditionalTitleMemorySize: 0
   xboxDeployKinectHeadOrientation: 0
   xboxDeployKinectHeadPosition: 0
-  ps3TitleConfigPath: 
-  ps3DLCConfigPath: 
-  ps3ThumbnailPath: 
-  ps3BackgroundPath: 
-  ps3SoundPath: 
-  ps3TrophyCommId: 
-  ps3NpCommunicationPassphrase: 
-  ps3TrophyPackagePath: 
+  ps3TitleConfigPath:
+  ps3DLCConfigPath:
+  ps3ThumbnailPath:
+  ps3BackgroundPath:
+  ps3SoundPath:
+  ps3TrophyCommId:
+  ps3NpCommunicationPassphrase:
+  ps3TrophyPackagePath:
   ps3BootCheckMaxSaveGameSizeKB: 128
-  ps3TrophyCommSig: 
+  ps3TrophyCommSig:
   ps3SaveGameSlots: 1
   ps3TrialMode: 0
   psp2Splashimage: {fileID: 0}
   psp2LiveAreaGate: {fileID: 0}
   psp2LiveAreaBackround: {fileID: 0}
-  psp2NPTrophyPackPath: 
-  psp2NPCommsID: 
-  psp2NPCommsPassphrase: 
-  psp2NPCommsSig: 
-  psp2ParamSfxPath: 
-  psp2PackagePassword: 
-  psp2DLCConfigPath: 
-  psp2ThumbnailPath: 
-  psp2BackgroundPath: 
-  psp2SoundPath: 
-  psp2TrophyCommId: 
-  psp2TrophyPackagePath: 
-  psp2PackagedResourcesPath: 
+  psp2NPTrophyPackPath:
+  psp2NPCommsID:
+  psp2NPCommsPassphrase:
+  psp2NPCommsSig:
+  psp2ParamSfxPath:
+  psp2PackagePassword:
+  psp2DLCConfigPath:
+  psp2ThumbnailPath:
+  psp2BackgroundPath:
+  psp2SoundPath:
+  psp2TrophyCommId:
+  psp2TrophyPackagePath:
+  psp2PackagedResourcesPath:
   flashStrippingLevel: 2
-  spritePackerPolicy: 
+  spritePackerPolicy:
   scriptingDefineSymbols: {}
-  metroPackageName: SmoothCamera2D
-  metroPackageLogo: 
-  metroPackageLogo140: 
-  metroPackageLogo180: 
-  metroPackageVersion: 
-  metroCertificatePath: 
-  metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
+  metroPackageName: SmoothFollowCamera2D
+  metroPackageLogo:
+  metroPackageLogo140:
+  metroPackageLogo180:
+  metroPackageVersion:
+  metroCertificatePath:
+  metroCertificatePassword:
+  metroCertificateSubject:
+  metroCertificateIssuer:
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: SmoothCamera2D
-  metroTileLogo80: 
-  metroTileLogo: 
-  metroTileLogo140: 
-  metroTileLogo180: 
-  metroTileWideLogo80: 
-  metroTileWideLogo: 
-  metroTileWideLogo140: 
-  metroTileWideLogo180: 
-  metroTileSmallLogo80: 
-  metroTileSmallLogo: 
-  metroTileSmallLogo140: 
-  metroTileSmallLogo180: 
-  metroSmallTile80: 
-  metroSmallTile: 
-  metroSmallTile140: 
-  metroSmallTile180: 
-  metroLargeTile80: 
-  metroLargeTile: 
-  metroLargeTile140: 
-  metroLargeTile180: 
-  metroTileShortName: 
-  metroCommandLineArgsFile: 
+  metroApplicationDescription: SmoothFollowCamera2D
+  metroTileLogo80:
+  metroTileLogo:
+  metroTileLogo140:
+  metroTileLogo180:
+  metroTileWideLogo80:
+  metroTileWideLogo:
+  metroTileWideLogo140:
+  metroTileWideLogo180:
+  metroTileSmallLogo80:
+  metroTileSmallLogo:
+  metroTileSmallLogo140:
+  metroTileSmallLogo180:
+  metroSmallTile80:
+  metroSmallTile:
+  metroSmallTile140:
+  metroSmallTile180:
+  metroLargeTile80:
+  metroLargeTile:
+  metroLargeTile140:
+  metroLargeTile180:
+  metroTileShortName:
+  metroCommandLineArgsFile:
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -189,23 +189,23 @@ PlayerSettings:
   metroDefaultTileSize: 1
   metroTileForegroundText: 1
   metroTileBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
-  metroSplashScreenImage: 
-  metroSplashScreenImage140: 
-  metroSplashScreenImage180: 
+  metroSplashScreenImage:
+  metroSplashScreenImage140:
+  metroSplashScreenImage180:
   metroSplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
   metroSplashScreenUseBackgroundColor: 0
   metroCapabilities: {}
   metroUnprocessedPlugins: []
   metroCompilationOverrides: 1
-  blackberryDeviceAddress: 
-  blackberryDevicePassword: 
-  blackberryTokenPath: 
-  blackberryTokenExires: 
-  blackberryTokenAuthor: 
-  blackberryTokenAuthorId: 
-  blackberryAuthorId: 
-  blackberryCskPassword: 
-  blackberrySaveLogPath: 
+  blackberryDeviceAddress:
+  blackberryDevicePassword:
+  blackberryTokenPath:
+  blackberryTokenExires:
+  blackberryTokenAuthor:
+  blackberryTokenAuthorId:
+  blackberryAuthorId:
+  blackberryCskPassword:
+  blackberrySaveLogPath:
   blackberryAuthorIdOveride: 0
   blackberrySharedPermissions: 0
   blackberryCameraPermissions: 0
@@ -217,13 +217,13 @@ PlayerSettings:
   blackberryLandscapeSplashScreen: {fileID: 0}
   blackberryPortraitSplashScreen: {fileID: 0}
   blackberrySquareSplashScreen: {fileID: 0}
-  tizenProductDescription: 
-  tizenProductURL: 
-  tizenCertificatePath: 
-  tizenCertificatePassword: 
+  tizenProductDescription:
+  tizenProductURL:
+  tizenCertificatePath:
+  tizenCertificatePassword:
   tizenGPSPermissions: 0
   tizenMicrophonePermissions: 0
-  stvDeviceAddress: 
+  stvDeviceAddress:
   firstStreamedLevelWithResources: 0
   unityRebuildLibraryVersion: 9
   unityForwardCompatibleVersion: 39
