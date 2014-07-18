@@ -177,10 +177,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1804056630}
   smoothTime: .150000006
-  maxVerticalPos: .540000021
-  minVerticalPos: -.899999976
-  maxHorizontalPos: 2.4000001
-  minHorizontalPos: -2.4000001
+  verticalMaxEnabled: 1
+  verticalMax: .540000021
+  verticalMinEnabled: 1
+  verticalMin: -.899999976
+  horizontalMaxEnabled: 1
+  horizontalMax: 2.4000001
+  horizontalMinEnabled: 1
+  horizontalMin: -2.4000001
 --- !u!1 &35878940
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,11 +1191,43 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: ecb17d0a365294ed59e240ada86b7b56, type: 2}
       propertyPath: minVerticalPos
-      value: -.899999976
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: ecb17d0a365294ed59e240ada86b7b56, type: 2}
       propertyPath: maxVerticalPos
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: ecb17d0a365294ed59e240ada86b7b56, type: 2}
+      propertyPath: verticalMax
       value: .540000021
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: ecb17d0a365294ed59e240ada86b7b56, type: 2}
+      propertyPath: verticalMin
+      value: -.899999976
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: ecb17d0a365294ed59e240ada86b7b56, type: 2}
+      propertyPath: horizontalMax
+      value: 2.4000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: ecb17d0a365294ed59e240ada86b7b56, type: 2}
+      propertyPath: horizontalMin
+      value: -2.4000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: ecb17d0a365294ed59e240ada86b7b56, type: 2}
+      propertyPath: horizontalMinEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: ecb17d0a365294ed59e240ada86b7b56, type: 2}
+      propertyPath: horizontalMaxEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: ecb17d0a365294ed59e240ada86b7b56, type: 2}
+      propertyPath: verticalMinEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: ecb17d0a365294ed59e240ada86b7b56, type: 2}
+      propertyPath: verticalMaxEnabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ecb17d0a365294ed59e240ada86b7b56, type: 2}
