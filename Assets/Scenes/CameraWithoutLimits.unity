@@ -176,13 +176,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1804056630}
-  dampTime: 8
-  limitPositionsX: 0
-  minPositionX: 0
-  maxPositionX: 0
-  limitPositionsY: 0
-  minPositionY: 0
-  maxPositionY: 0
+  smoothTime: .150000006
+  minHorizontalPoint: 0
+  maxHorizontalPoint: 0
+  minVerticalPoint: 0
+  maxVerticalPoint: 0
 --- !u!1 &35878940
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,7 +251,7 @@ Transform:
   m_LocalScale: {x: 11, y: .400000006, z: 1}
   m_Children: []
   m_Father: {fileID: 1071408523}
-  m_RootOrder: 0
+  m_RootOrder: 3
 --- !u!1 &149825775
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,7 +281,7 @@ Transform:
   m_LocalScale: {x: 3.02501106, y: .400000006, z: 1}
   m_Children: []
   m_Father: {fileID: 1071408523}
-  m_RootOrder: 2
+  m_RootOrder: 0
 --- !u!61 &149825777
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -443,7 +441,7 @@ Transform:
   m_LocalScale: {x: 1, y: 8.99999905, z: 1}
   m_Children: []
   m_Father: {fileID: 1071408523}
-  m_RootOrder: 4
+  m_RootOrder: 2
 --- !u!1001 &815382994
 Prefab:
   m_ObjectHideFlags: 0
@@ -521,7 +519,7 @@ Transform:
   m_LocalScale: {x: 3.02501106, y: .400000006, z: 1}
   m_Children: []
   m_Father: {fileID: 1071408523}
-  m_RootOrder: 1
+  m_RootOrder: 4
 --- !u!61 &848026441
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -633,7 +631,7 @@ Transform:
   m_LocalScale: {x: 1, y: 8.99999905, z: 1}
   m_Children: []
   m_Father: {fileID: 1071408523}
-  m_RootOrder: 3
+  m_RootOrder: 1
 --- !u!1001 &1066607618
 Prefab:
   m_ObjectHideFlags: 0
@@ -711,11 +709,11 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 35878944}
-  - {fileID: 848026440}
   - {fileID: 149825776}
   - {fileID: 997794824}
   - {fileID: 596149765}
+  - {fileID: 35878944}
+  - {fileID: 848026440}
   m_Father: {fileID: 0}
   m_RootOrder: 1
 --- !u!1001 &1310216040
@@ -859,6 +857,26 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: ecb17d0a365294ed59e240ada86b7b56, type: 2}
       propertyPath: maxPositionY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: ecb17d0a365294ed59e240ada86b7b56, type: 2}
+      propertyPath: smoothTime
+      value: .150000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: ecb17d0a365294ed59e240ada86b7b56, type: 2}
+      propertyPath: maxVerticalPoint
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: ecb17d0a365294ed59e240ada86b7b56, type: 2}
+      propertyPath: minVerticalPoint
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: ecb17d0a365294ed59e240ada86b7b56, type: 2}
+      propertyPath: maxHorizontalPoint
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: ecb17d0a365294ed59e240ada86b7b56, type: 2}
+      propertyPath: minHorizontalPoint
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

@@ -4,33 +4,37 @@ using System.Collections;
 public class SmoothCamera2D : MonoBehaviour {
 
 	public Transform target;
+	private Vector3 velocity = Vector3.zero;
 
-	public float dampTime = 8f;
-	
-	public bool limitPositionsX = false;
-	public float minPositionX = 0f;
-	public float maxPositionX = 0f;
-	
-	public bool limitPositionsY = false;
-	public float minPositionY = 0f;
-	public float maxPositionY = 0f;
+	public float smoothTime = 0.15f;
+	public float maxVerticalPos = 0f;
+	public float minVerticalPos = 0f;
+	public float maxHorizontalPos = 0f;
+	public float minHorizontalPos = 0f;
 
 	void Update () {
 		if (target) {
-			Vector3 fromPosition = transform.position;
-			Vector3 toPosition = target.position;
+			Vector3 targetPosition = target.position;
 			
-			if (limitPositionsX) {
-				toPosition.x = Mathf.Clamp(target.position.x, minPositionX, maxPositionX);
+			if (minHorizontalPos != 0f && maxHorizontalPos != 0f) {
+				targetPosition.x = Mathf.Clamp(target.position.x, minHorizontalPos, maxHorizontalPos);
+			} else if (minHorizontalPos != 0f) {
+				targetPosition.x = Mathf.Clamp(target.position.x, minHorizontalPos, target.position.x);
+			} else if (maxHorizontalPos != 0f) {
+				targetPosition.x = Mathf.Clamp(target.position.x, target.position.x, maxHorizontalPos);
 			}
 			
-			if (limitPositionsY) {
-				toPosition.y = Mathf.Clamp(target.position.y, minPositionY, maxPositionY);
+			if (minVerticalPos != 0f && maxVerticalPos != 0f) {
+				targetPosition.y = Mathf.Clamp(target.position.y, minVerticalPos, maxVerticalPos);
+			} else if (minVerticalPos != 0f) {
+				targetPosition.y = Mathf.Clamp(target.position.y, minVerticalPos, target.position.y);
+			} else if (maxVerticalPos != 0f) {
+				targetPosition.y = Mathf.Clamp(target.position.y, target.position.y, maxVerticalPos);
 			}
 			
-			toPosition.z = transform.position.z;
-			
-			transform.position -= (fromPosition - toPosition) * dampTime * Time.deltaTime;
+			targetPosition.z = transform.position.z;
+
+			transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
 		}
 	}
 }

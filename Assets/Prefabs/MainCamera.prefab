@@ -90,13 +90,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  dampTime: 8
-  limitPositionsX: 1
-  minPositionX: -2.4000001
-  maxPositionX: 2.4000001
-  limitPositionsY: 1
-  minPositionY: -.899999976
-  maxPositionY: .540000021
+  smoothTime: .150000006
+  minHorizontalPoint: -2.4000001
+  maxHorizontalPoint: 2.4000001
+  minVerticalPoint: -.899999976
+  maxVerticalPoint: .540000021
 --- !u!124 &12400000
 Behaviour:
   m_ObjectHideFlags: 1
