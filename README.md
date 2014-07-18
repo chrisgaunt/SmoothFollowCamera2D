@@ -7,7 +7,7 @@ This is a useable Unity project with:
 * The main file: [Assets/Scripts/SmoothFollowCamera2D.cs](https://github.com/chrisgaunt/SmoothFollowCamera2D/blob/master/Assets/Scripts/SmoothFollowCamera2D.cs)
 * Two demo scenes:
   * CameraWithoutLimits
-  * CameraWith Limits
+  * CameraWithLimits
 
 See my blog for more discussion: [Smooth Follow Camera 2D](http://www.chrisgaunt.com/2014/07/18/smooth-follow-camera-2D-v1.0.0/)
 
